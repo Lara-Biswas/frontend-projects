@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding:0;
+    margin: 0px auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.header p{
+    padding-left: 25px;
+    color: gray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.header img{
+    height: 20px;
+    width: 20px;
+    padding-right: 20px;
+}
+#fitness_class{
+    height:600px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(224, 220, 220);
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+#about{
+    height:600px;
+    width: 600px;
+    background-color:rgb(224, 220, 220);
+    text-align:left;
+    padding-left: 80px;
+    padding-right: 50px;
+    justify-content: center;
+}
+
+#about h1{
+    padding-top: 85px;
+    padding-bottom: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 42px;
+
+}
+#about h5{
+    color: rgb(82, 81, 81);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+#about p{
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(82, 81, 81);
+    padding-bottom: 200px;  
+}
+#about a{
+    padding: 17px 70px;
+    border: 1px solid red;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#bigimg img{
+    height: 600px;
+    width: 600px;
+}
+#variation{
+    height:450px;
+    width: 100%;
+    background-color: red;
+    padding-top: 16px;
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.var{
+    height: 320px;
+    width: 250px;
+    background-color:white;
+    padding: 15px 20px;
+    text-align: left;
+}
+.var img{
+    height: 60px;
+    width: 60px;
+    padding: 15px 15px;
+    border: 1px solid   rgb(253, 149, 149);
+    border-radius: 50%;
+    background-color: rgb(253, 149, 149);
+}
+.var h5{
+    color:rgb(82, 81, 81);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.var p{
+    color:rgb(82, 81, 81);
+    padding-bottom:30px;
+    font-size: 14px;
+}
+.var a{
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+    padding: 5px 20px;
+    border: 1px solid rgb(82, 81, 81);
+    font-size: 13px;
+}
+#try{
+    height:750px;
+    width: 100%;
+    background-color:rgb(224, 220, 220);
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#what h1{
+    font-size: 40px;
+    padding: 20px 20px;
+}
+/* #learn{
+    width: 100%;
+    height: 750px;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+
+    
+} */
+#fitfit1{
+ 
+    left: 180px;
+    height:400px;
+    width: 260px;
+    background-color: white;
+    top:60px; 
+    padding: 20px 20px;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#fitfit2{
+
+    left: 480px;
+    height:400px;
+    width: 260px;
+    background-color: white;
+    top:100px; 
+    padding: 20px 20px;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#fitfit3{
+  
+    left:780px;
+    height:400px;
+    width: 260px;
+    background-color: white;
+    top:150px; 
+    padding: 20px 20px;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#colll{
+    margin-top: 250px;
+    height:160px;
+    width:100%;
+    background-color: red;
+    z-index: 1;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+#fitfit1 img{
+    height: 170px;
+    width: 220px;
+
+}
+#fitfit1 h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#fitfit1 p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+#fitfit1 a{
+    text-decoration: none;
+    color:rgb(82, 81, 81) ;
+}
+#fitfit2 img{
+    height: 170px;
+    width: 220px;
+
+}
+#fitfit2 h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#fitfit2 p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+#fitfit2 a{
+    text-decoration: none;
+    color:rgb(82, 81, 81) ;
+}
+#fitfit3 img{
+    height: 170px;
+    width: 220px;
+
+}
+#fitfit3 h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#fitfit3 p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+#fitfit3 a{
+    text-decoration: none;
+    color:rgb(82, 81, 81) ;
+}
+#contact{
+    width: 100%;
+    height: 1000px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 232, 232);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#newimg{
+    z-index: 1;
+    height: 900px;
+    width: 900px;
+}
+#newimg img{
+    height: 900px;
+    width: 900px;
+}
+
+#abt{
+height: 500px;
+width: 500px;
+background-color: black;
+padding: 50px 20px;
+position: absolute;
+z-index: 2;
+}
+
+#abt1{
+    margin-left: 500px;
+    margin-top: 200px;
+    height: 600px;
+    width: 600px;
+    background-color:white;
+    z-index: 3;
+    padding: 20px 20px;
+    box-shadow: 5px 10px 8px gray;
+    position: absolute;
+
+    }
+#abt1 h1{
+    text-align: center;
+    padding-bottom:25px;
+}
+#abt1 a{
+    text-align: center;
+    padding: 10px 170px;
+    border: 1.5px solid black;
+    text-decoration: none;
+    color: black;
+}
+#abt p{
+    padding-bottom:20px;
+    color:rgb(174, 171, 171);
+}
+#abt h1{
+    color:white;
+    font-size: 50px;
+}
+input{
+    border:none;
+}
